@@ -1,0 +1,64 @@
+Homework 1 - [Your team name here]
+========================================================
+
+### Task 0 - Load the data
+
+```{r}
+suppressMessages(library(dplyr))
+load("lego_sales.RData")
+```
+
+
+### Task 1 - Tidying the data
+
+<!-- Covert the `sales` object into a tidy data frame. Be sure to include a write up of your methods. -->
+
+```{r}
+```
+
+
+<br/>
+
+## Task 2 - Processing the data
+
+
+
+1. What was the most common first name of purchasers? Last name?
+
+```{r}
+```
+
+2. What are the five most popular lego sets based on these data?
+
+```{r}
+```
+
+3. Which five customers have spent the most money so far and how much have they spent?
+
+```{r}
+```
+
+4. Which lego theme has made the most money for lego?
+
+```{r}
+```
+
+5. Do men or women buy more lego sets (per person) on average?
+
+```{r}
+```
+
+6. What are the five most popular hobbies of lego purchasers?
+
+```{r}
+```
+
+7. How many total pieces have been purchased from lego by these customers?
+
+```{r}
+```
+
+8. What state has spent the most money on legos? Hint - customer area codes may prove useful for this.
+
+```{r}
+```
