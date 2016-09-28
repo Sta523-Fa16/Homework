@@ -2,7 +2,9 @@ allowed_files = c("hw2.Rmd",
                   "README.md",
                   "wercker.yml",
                   "lego_sales.RData",
-                  "lego_sales.json")
+                  "lego_sales.json",
+                  "areacodes.csv",
+                  "area-codes.csv")
 
 files = dir()
 disallowed_files = files[!(files %in% allowed_files)]
