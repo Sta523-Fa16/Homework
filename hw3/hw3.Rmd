@@ -1,0 +1,77 @@
+---
+title: "HW3 - Visualizing the diamonds data set"
+author:
+- Add Author 1
+- Add Author 2
+- Add Author 3
+- Add Author 4
+output: 
+  html_document: 
+    highlight: pygments
+    theme: flatly
+---
+
+### Load the data
+
+```{r setup, include=FALSE}
+library(ggplot2)
+data(diamonds)
+```
+
+### Data properties
+
+<!-- As a team, browse the data and select three variables that you think are interesting and that you think may have an interesting relationship. 
+
+For each of the variables you selected answer the following question: What are some of the properties of this variable that will be relevant (useful? problematic?) for data visualization? -->
+
+1. Variable 1 - 
+
+```{r}
+```
+
+2. Variable 2 - 
+
+```{r}
+```
+
+
+3. Variable 3 - 
+
+```{r}
+```
+
+
+### Charts
+
+<!-- Select and design two different charts that visualize the relationship between these three variables. Each chart should have different "purpose" that guides your choices and justifies the differences between the charts. -->
+
+
+#### Chart 1
+
+```{r}
+```
+
+#### Chart 2
+
+```{r}
+```
+
+
+### Chart properties
+
+<!-- What two chart types have you selected? What are some of the properties of these charts, and how do those properties match with your variables of interest? -->
+
+
+### Tasks
+
+<!-- What task(s) should users of each chart be able to undertake? Why are these tasks important for these variables? -->
+
+
+### Design context
+
+<!-- What design choices did you make to try to help users accomplish the intended tasks? -->
+
+### User skills
+
+<!-- What type of audience did you intend the chart for? What types of skills does this audience bring to the understanding of your charts? What elements of your charts might be difficult for the audience to understand, and how do you justify the choices you have made about those elements? -->
+ 
