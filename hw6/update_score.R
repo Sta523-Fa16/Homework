@@ -15,7 +15,7 @@ if (!file.exists("precincts.json"))
 pred = gBuffer(readOGR("precincts.json", layer="OGRGeoJSON", verbose=FALSE),
                width=0, byid=TRUE)
 
-load(file = "pp_fa16.Rdata")
+load(file = "pp.Rdata")
 pp = spTransform(pp, CRS("+proj=longlat +datum=WGS84"))
 
 
