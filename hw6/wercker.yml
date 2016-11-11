@@ -32,7 +32,8 @@ build:
     - script:
       name: Update scores
       code: |
-          Rscript -e "source('https://raw.githubusercontent.com/Sta523-Fa16/Homework/master/hw6/update_score.R')" $TEAM
+          curl -s "https://raw.githubusercontent.com/Sta523-Fa16/Homework/master/hw6/update_score.R" > update_score.R
+          Rscript update_score.R $TEAM
           curl -s "https://api.orchestrate.io/v0/Sta523-Fa16-HW6/$TEAM" \
             -XPUT \
             -H "Content-Type: application/json" \

@@ -15,8 +15,7 @@ if (!file.exists("precincts.json"))
     stop("No precincts.json to score!")    
 } 
 
-pred = gBuffer(readOGR("precincts.json", layer="OGRGeoJSON", verbose=FALSE),
-               width=0, byid=TRUE)
+pred = suppressWarnings(gBuffer(readOGR("precincts.json", layer="OGRGeoJSON", verbose=FALSE),width=0, byid=TRUE))
 
 load(file = "pp.Rdata")
 
