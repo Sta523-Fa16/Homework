@@ -45,4 +45,4 @@ score = score / suppressWarnings(gArea(pp))
 
 writeLines(toJSON(list("score" = score), auto_unbox=TRUE), paste0(team,".json"))
 
-warnings()
+print(warnings())
