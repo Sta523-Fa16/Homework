@@ -3,6 +3,8 @@ suppressMessages(library(rgdal))
 suppressMessages(library(rgeos))
 suppressMessages(library(sf))
 
+options(nwarnings = 50)
+
 args = commandArgs(trailingOnly = TRUE)
 
 stopifnot(length(args) == 1)
@@ -33,12 +35,14 @@ for(p in pp$Precinct)
     if (length(pred_i) == 0)
     {
         warning("Precinct ",p," missing from predicted boundaries.")
-        score = score + suppressWarnings(gArea(pp[pp_i,]))
+        score = score + suppressWarnings(gArea(pp[pp_i,],byid=FALSE))
     } else {
-        score = score + suppressWarnings(gArea(gSymdifference(pred[pred_i,], pp[pp_i,])))
+        score = score + suppressWarnings(gArea(gSymdifference(pred[pred_i,], pp[pp_i,], byid=FALSE)))
     }
 }
 
 score = score / suppressWarnings(gArea(pp))
 
 writeLines(toJSON(list("score" = score), auto_unbox=TRUE), paste0(team,".json"))
+
+warnings()
