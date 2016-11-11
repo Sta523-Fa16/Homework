@@ -1,6 +1,7 @@
 suppressMessages(library(jsonlite))
 suppressMessages(library(rgdal))
 suppressMessages(library(rgeos))
+suppressMessages(library(sf))
 
 args = commandArgs(trailingOnly = TRUE)
 
@@ -16,7 +17,8 @@ pred = gBuffer(readOGR("precincts.json", layer="OGRGeoJSON", verbose=FALSE),
                width=0, byid=TRUE)
 
 load(file = "pp.Rdata")
-pp = spTransform(pp, CRS("+proj=longlat +datum=WGS84"))
+
+pp = spTransform(as(pp,"Spatial"), CRS("+proj=longlat +datum=WGS84"))
 
 
 if (!"Precinct" %in% names(pp))
