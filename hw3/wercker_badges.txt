@@ -1,0 +1,12 @@
+team,link
+Team0,[![wercker status](https://app.wercker.com/status/20968eaa460cce74587d3d81fea93c60/s/master "wercker status")](https://app.wercker.com/project/byKey/20968eaa460cce74587d3d81fea93c60)
+Team1,[![wercker status](https://app.wercker.com/status/0ff9f5765acbfa18fcd5922b9b4bfd3c/s/master "wercker status")](https://app.wercker.com/project/byKey/0ff9f5765acbfa18fcd5922b9b4bfd3c)
+Team2,[![wercker status](https://app.wercker.com/status/b8e17d864ddb0ec3d2e7dcb4943879e9/s/master "wercker status")](https://app.wercker.com/project/byKey/b8e17d864ddb0ec3d2e7dcb4943879e9)
+Team3,[![wercker status](https://app.wercker.com/status/74ea04a076b0fa62644bbd2c85197df3/s/master "wercker status")](https://app.wercker.com/project/byKey/74ea04a076b0fa62644bbd2c85197df3)
+Team4,[![wercker status](https://app.wercker.com/status/b379557ccf9b04b7f8bde6f35f3e6878/s/master "wercker status")](https://app.wercker.com/project/byKey/b379557ccf9b04b7f8bde6f35f3e6878)
+Team5,[![wercker status](https://app.wercker.com/status/565d2d64bfc3d8b83848efcafd74833f/s/master "wercker status")](https://app.wercker.com/project/byKey/565d2d64bfc3d8b83848efcafd74833f)
+Team6,[![wercker status](https://app.wercker.com/status/f33271009ac08e191486232f3a54cea0/s/master "wercker status")](https://app.wercker.com/project/byKey/f33271009ac08e191486232f3a54cea0)
+Team7,[![wercker status](https://app.wercker.com/status/444fb316b82420e0df542f3c372134fa/s/master "wercker status")](https://app.wercker.com/project/byKey/444fb316b82420e0df542f3c372134fa)
+Team8,[![wercker status](https://app.wercker.com/status/b6148ccb6c14a06b3db3913111605859/s/master "wercker status")](https://app.wercker.com/project/byKey/b6148ccb6c14a06b3db3913111605859)
+Team9,[![wercker status](https://app.wercker.com/status/9ba31b2386f1cd339aaf0c54b084d263/s/master "wercker status")](https://app.wercker.com/project/byKey/9ba31b2386f1cd339aaf0c54b084d263)
+Team10,[![wercker status](https://app.wercker.com/status/fc67991c15cca293da35aa2375361bc3/s/master "wercker status")](https://app.wercker.com/project/byKey/fc67991c15cca293da35aa2375361bc3)
